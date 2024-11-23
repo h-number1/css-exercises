@@ -18,8 +18,28 @@ body {
 .modal {
   background: white;
   width: 480px;
+  padding: 15px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
+  display: flex;
+  gap: 15px;
+}
+
+.rightmain {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.bottom {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
 }
 
 .icon {
@@ -48,6 +68,11 @@ body {
   justify-content: center;
   border: 1px solid #eee;
   padding: 0;
+}
+
+.header {
+  font-size: 18px;
+  font-weight: bold;
 }
 
 button {
