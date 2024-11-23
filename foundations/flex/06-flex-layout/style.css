@@ -7,6 +7,51 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.wrapper {
+  max-width: 80%;
+  height: inherit;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  margin: 15px 0px 0px 0px;
+  padding: 15px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  margin: 0px 0px 15px 0px;
+  padding: 15px;
+  background-color: #eeeeee;
+}
+
+ul {
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+  color: #9b9b9b;
+}
+
 img {
   width: 600px;
 }
@@ -15,6 +60,7 @@ button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
+  padding: 10px 15px 10px 15px;
   background: #eee;
 }
 
